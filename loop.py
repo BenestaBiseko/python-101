@@ -1,9 +1,4 @@
-'''
-https://github.com/BenestaBiseko/python-101/invitations
-'''
-'''
-Write a simple script that demonstrate your understanding of loops in python   
-'''
+
 '''
 Write a simple script that demonstrate your understanding of loops in python   
 '''
