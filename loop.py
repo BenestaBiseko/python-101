@@ -1,26 +1,30 @@
 '''
+https://github.com/BenestaBiseko/python-101/invitations
+'''
+'''
+Write a simple script that demonstrate your understanding of loops in python   
+'''
+'''
 Write a simple script that demonstrate your understanding of loops in python   
 '''
 # Start with wile loop
-'''
-d= int(input("Enter the value Multiple of 7 "))
 
-    while d %7 !=0:
-    pass d= int(input("Enter the value Multiple of 7 "))
-
-    else:
-        print("%d is Multiple of 7" %val)
-        '''
-
+i = 1
+while i <= 7:
+    print(i)
+    i += 1
+    if i == 4:
+        break
 
 # For Loop
 x = (1, 2, "Python")
 for i in x:
     print(i)
-    
+
 # Nested Loop
-x = {[1,2,3], ["a", "b", "c"]}
+x = [1, 2, 3]
+y = ["a", "b", "c"]
 for i in x:
-    for i in j:
+    for j in y:
         print(j, end="")
-        print()
+        print(i, end="") 
