@@ -3,12 +3,19 @@ Write a simple script to demonstrate your understanding of Variable,identifier a
 '''
 #variables
 
-x = "Awesome"
-y = "Python"
+charac = "awesome"
+name = "python"
+
 
 def myfunc():
 
-    print(y +" is "+ x)
+    print(name.upper() +" IS "+ charac.upper())
 
 myfunc()
+
+x = y = z = "python is nice"
+
+print(x.upper())
+print(y.title())
+print(z.capitalize(), "In programming")
 
