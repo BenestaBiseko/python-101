@@ -14,20 +14,11 @@ else:
 
 
 a = 200
-b = 33
+b = 200
 if b > a:
   print("b is greater than a")
+
 elif b == a:
     print("Awesome")
 else:
   print("b is not greater than a")
-
-  a = 20
-  b = 13
-  c = 22
-  if a > b > c:
-      print("Alone")
-  elif b > a > c:
-      print("Nothing")
-  else:
-      print("something behind")
