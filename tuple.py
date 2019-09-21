@@ -8,3 +8,10 @@ print (tuple + tinytuple)   #all data will be printed out;
 print (tuple[1:4])   #data from 2nd element to 4th will be printed;
 print (tuple[3:] * 2 )  #data starting the 4th one will be printed two times;
 print (tuple[:2])  #data starting from 1 to 2 will be printed out;
+
+# Using loop to print all data in tuples
+for x in tuple:
+    print(x, end=" ")
+for y in tinytuple:
+    print(y, end=" ")
+  
